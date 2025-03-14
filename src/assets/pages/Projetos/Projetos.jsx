@@ -11,7 +11,7 @@ export default function Projetos() {
             .then((data) => {
                 // Filtro para ocultar repositórios específicos
                 const filteredRepos = data.filter(
-                    (repo) => repo.name !== "josueeng" && repo.name !== "PortifolioFinal"
+                    (repo) => repo.name !== "josueeng" && repo.name !== "MyProfile"
                 );
                 setRepos(filteredRepos);
             })
